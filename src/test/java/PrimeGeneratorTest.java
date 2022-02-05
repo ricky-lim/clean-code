@@ -26,7 +26,7 @@ class PrimeGeneratorTest {
     @Test
     @DisplayName("given a limit of two, it should generate an empty list")
     void givenALimitOfTwoItShouldGenerateAnEmptyList() {
-        List<Integer> result = PrimeGenerator.generate(1);
+        List<Integer> result = PrimeGenerator.generate(2);
         assertEquals(Collections.emptyList(), result);
     }
 

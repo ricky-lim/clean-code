@@ -18,7 +18,6 @@ class Number {
     public int square() {
         return value * value;
     }
-
 }
 
 /*
